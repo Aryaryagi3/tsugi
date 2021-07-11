@@ -1,10 +1,6 @@
 # TsugiLoja
 Projeto de avaliação de Desenvolvimento para web 2
 
-Checkist:
-
-# GitHub Pages
-
 # Checkist
 Caixas de Diálogo
 
