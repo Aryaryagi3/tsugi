@@ -4,6 +4,10 @@ Projeto de avaliação de Desenvolvimento para web 2
 # Checkist
 Caixas de Diálogo
 
+# Relatório da Avaliação 1
+https://easyupload.io/vxz3uc
+O link tem 30 dias de duração
+
 - [X] prompt
 - [X] alert
 - [X] confirm
