@@ -4,13 +4,13 @@ Projeto de avaliação de Desenvolvimento para web 2
 # Checkist
 Caixas de Diálogo
 
-- [O] prompt
-- [ ] alert
-- [ ] confirm
+- [X] prompt
+- [X] alert
+- [X] confirm
 
 Temporizadores
 
-- [ ] setInterval
+- [X] setInterval
 - [ ] setTimeout
 
 Funções
@@ -26,7 +26,7 @@ Funções
 
 Eventos
 
-- [ ] Evento de carregamento do documento - onload
+- [X] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [ ] Eventos de formulário - onfocus e onblur
@@ -35,7 +35,7 @@ Eventos
 Acesso aos elementos DOM do HTML
 
 - [ ] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
+- [X] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
@@ -95,7 +95,7 @@ jQuery
 
 Web Storage
 
-- [ ] LocalStorage ou SessionStorage
+- [X] LocalStorage ou SessionStorage
 - [ ] Leitura e escrita de dados simples
 - [ ] Leitura e escrita de JSON
 
