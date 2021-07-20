@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Tsugi/css/style.css">
+        <title>Loja Tsugi - Entrar na Conta</title>
+    </head>
+    <body onload="carregar()">
+        <header class="header">
+            <a href="Home.html"> <img alt="Tsugi" class="logo" src="/Tsugi/imagens/TsugiLogo.png"> </a>
+            <form class="buscar" action="Busca.html">
+                <input type="text" placeholder="Busque seu produto desejado aqui!" id="buscaValor" name="buscaValor">
+                <button type="submit" id="buscar" class="botaoBusca" onclick="busca()" value="submit"><img class="lupa" alt="lupa" src="/Tsugi/imagens/lupa.png"></button>
+            </form>
+            <nav class="nav">
+                <div class="menuDireita">
+                    <ul class="menu" id="suaContaMenu"></ul>
+                    <a href="Carrinho.html"> <div class="carrinho"> <img class="carrinhoIMG" alt="carrinho" src="/Tsugi/imagens/carrinho.png"> <p class="carrinhoPalavra">Carrinho</p></div> </a>
+                </div>
+            </nav>
+        </header>
+        <div class="principal">
+            <div class="Conta" id="entrarConta">
+                <h1>Entrar na Conta</h1>
+                <form id="formEntrarConta">
+                    <label for="email">Email: </label>
+                    <input class="imputConta" type="text" placeholder="Seu email" id="email" />
+
+                    <label for="senha">Senha: </label>
+                    <input class="imputConta" type="text" placeholder="Sua senha" id="senha"/>
+
+                    <button class="ContaBotao" id="botaoEntrar">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <img alt="Tsugi" class="logo" src="/Tsugi/imagens/TsugiLogo.png">
+            <div>
+                <p class="contatos">Nos contate:</p>
+            </div>
+            <div class="email">
+                <img class="icones" alt="Email" src="/Tsugi/imagens/email.png">
+                <p class="contatos">tsugiloja@gmail.com</p>
+            </div>
+            <div class="telefone">
+                <img class="icones" alt="Telefone" src="/Tsugi/imagens/telefone.png">
+                <p class="contatos">99999-9999</p>
+            </div>
+            <div class="localizacao">
+                <img class="icones" alt="Localização" src="/Tsugi/imagens/pin.png">
+                <p class="contatos">Rua Alguma Coisa de Algum Lugar, 1000 - PR</p>
+            </div>
+        </footer>
+        <script src="/Tsugi/scripts/complemento.js"></script>
+        <script src="/Tsugi/scripts/entrar-conta.js"></script>
+    </body>
+</html>
