@@ -4,7 +4,7 @@ Projeto de avaliação de Desenvolvimento para web 2
 # Checkist
 Caixas de Diálogo
 
-- [x] prompt
+- [O] prompt
 - [ ] alert
 - [ ] confirm
 
