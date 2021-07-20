@@ -15,9 +15,9 @@ Temporizadores
 
 Funções
 
-- [ ] Função anônima com argumento
+- [x] Função anônima com argumento
 - [ ] Função anônima sem argumento
-- [ ] Função anônima com retorno
+- [x] Função anônima com retorno
 - [ ] Função auto-executável
 - [X] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
@@ -51,7 +51,7 @@ Objetos Nativos
 
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [x] Usar laço de repetição (for..in ou for..of ou forEach)
-- [x] Usar pelo menos 3 métodos para manipulação de string
+- [ ] Usar pelo menos 3 métodos para manipulação de string
 - [ ] String Template
 
 Objetos
@@ -77,7 +77,7 @@ Formulário
 - [ ] Customizar as mensagens nos balões de mensagem
 - [ ] Usar os atributos de validação dos inputs
 - [ ] Usar expressões regulares
-- [X] Ler e escrever em elementos input com a propriedade value
+- [ ] Ler e escrever em elementos input com a propriedade value
 - [X] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
 - [X] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
