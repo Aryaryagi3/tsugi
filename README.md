@@ -100,7 +100,7 @@ jQuery
 Web Storage
 
 - [X] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
+- [x] Leitura e escrita de dados simples
 - [ ] Leitura e escrita de JSON
 
 Ajax com Backend
