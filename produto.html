@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/resources/styles/style.css">
+    <title>Loja Tsugi - Produto</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+  </head>
+  <body onload="carregarProduto()">
+      <header class="header">
+          <a href="Home.html"> <img alt="Tsugi" class="logo" src="assets/resources/images/tsugi-logo.png"> </a>
+          <h1 id="titulo-site" class="titulo-site">Tsugi</h1>
+          <div id="mouseOver"></div>
+          <form class="buscar" action="http://google.com/search" method="GET">
+              <input type="text" placeholder="Busque seu produto desejado aqui!" id="buscaValor" name="q">
+              <button type="submit" id="buscar" class="botaoBusca" value="search"><img class="lupa" alt="lupa" src="assets/resources/images/lupa.png"></button>
+          </form>
+          <nav class="nav">
+              <div class="menuDireita">
+                  <div></div>
+                  <ul class="menu" id="suaContaMenu"></ul>
+                  <a href="carrinho.html"> <div class="carrinho"> <img class="carrinhoIMG" alt="carrinho" src="assets/resources/images/carrinho.png"> <p class="carrinhoPalavra">Carrinho</p></div> </a>
+              </div>
+          </nav>
+      </header>
+      <div class="principal">
+          <div class="produto" id="Produto">
+          </div>
+          <div id="sugestoes">
+
+          </div>
+      </div>
+      <footer class="footer">
+          <img alt="Tsugi" class="logo" src="assets/resources/images/tsugi-logo.png">
+          <div>
+              <p class="contatos">Nos contate:</p>
+          </div>
+          <div class="email">
+              <img class="icones" alt="Email" src="assets/resources/images/email.png">
+              <p class="contatos">tsugiloja@gmail.com</p>
+          </div>
+          <div class="telefone">
+              <img class="icones" alt="Telefone" src="assets/resources/images/telefone.png">
+              <p class="contatos">99999-9999</p>
+          </div>
+          <div class="localizacao">
+              <img class="icones" alt="Localização" src="assets/resources/images/pin.png">
+              <p class="contatos">Rua Alguma Coisa de Algum Lugar, 1000 - PR</p>
+          </div>
+      </footer>
+      <script src="assets/resources/scripts/produto.js"></script>
+      <script src="assets/resources/scripts/complemento.js"></script>
+      <script src="assets/resources/scripts/mangas.js"></script>
+  </body>
+</html>
