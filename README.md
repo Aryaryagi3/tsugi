@@ -1,5 +1,5 @@
 # TsugiLoja
-Projeto de avaliação de Desenvolvimento para web 2
+Pequeno site de compras online não-funcional desenvolvido sem utilizar banco de dados.
 
 # Checkist
 Caixas de Diálogo
